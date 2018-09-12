@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<script type="text/javascript">
+		let input = prompt("Nhập vào ký tự!! ");
+
+		function upper_case(str){
+			let my_reg = /^[A-Z]/;
+			if(my_reg.test(str)){
+				console.log("First string is uppercase");
+				return "First string is uppercase";
+			}else{
+				console.log("First string isn't uppercase");
+				return "First string isn't uppercase";
+			}
+		}
+		alert(upper_case(input));
+	</script>
+</body>
+</html>
